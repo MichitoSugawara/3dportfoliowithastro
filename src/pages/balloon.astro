@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { App } from '../components/3d/balloon';
+---
+
+<Layout title="index">
+	<div class="h-screen w-screen">
+		<App client:only />
+	</div>
+</Layout>
+
+<style>
+</style>
