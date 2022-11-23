@@ -1,9 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Morris from '../components/3d/Morris';
 ---
 
 <Layout title="index">
 	<main>
+		<div class="h-screen w-screen">
+			<Morris client:only='react' />
+		</div>
 	</main>
 </Layout>
 
